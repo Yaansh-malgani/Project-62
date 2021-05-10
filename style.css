@@ -1,0 +1,59 @@
+#flower {
+    font-family: 'Yellowtail', cursive;
+    color: gold;
+    font-size: 60px;
+}
+
+#home {
+    text-align: center;
+    background: linear-gradient(#ff5454 0%, #ffd454 100%);
+    background-repeat: no-repeat;
+}
+
+#main {
+    margin: 100px;
+}
+
+.image {
+    height: 140px;
+    width: auto;
+    margin: 5px;
+}
+
+#grid {
+    text-align: center;
+    background: linear-gradient(#66BB6A 0%, #ffd454 100%);
+    background-repeat: no-repeat;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menu {
+    background-color: aliceblue;
+    width: 60%;
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+  right:0px;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.link {
+    float:left;
+    position: sticky;
+    text-decoration: none;
+    display: inline;
+    color: #fff;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 30px;
+}
+.link:hower{
+  text-decoration:underline;
+  text-shadow:2px 2px;
+}
